@@ -165,4 +165,4 @@ print(LR.p.value <- pchisq(as.numeric(LRa), df = 2, lower.tail = FALSE))
 summary(model_sdm)
 
 #SDM - przeciwne znaki mozliwe ze efekty sie znosz¹(np. brak dodatkowych zmienych), Rho - istotne statystycznie
-#Niestety nie uda³o mi siê zrobiæ modelu o powiekszonej jednostce np. PKB. lecz poprawa sytuacji w jednym regionie moze miec pozytywny skutek na drugi . Powiêkszanie o jednostke wykrzaczalo mi macierz.
+#W modelu o powiekszonej jednostce np. PKB. -  poprawa sytuacji w jednym regionie moze miec pozytywny skutek na drugi . 
